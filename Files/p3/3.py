@@ -1,18 +1,18 @@
 from collections import Counter
 
-with open('freequency.txt') as f:
+with open('T:\\Programmes\\Python\\Data Science\\52_MCA_DataScience_Lab\\Files\p3\\freequency.txt') as f:
     print(Counter(f.read().split()))
 
 # dict=dict()
-# with open('freequency.txt') as f:
-#     data=f.read()
-#     data=data.strip()
-#     words=data.split(" ")
-#     for words in data:
-#         if dict[words] in words:
-#             dict[words]+=1
+# with open('T:\\Programmes\\Python\\Data Science\\52_MCA_DataScience_Lab\\Files\p3\\freequency.txt') as f:
+#     data=f.read().split()
+#     words={}
+#     for i in data:
+#         i=i.lower()
+#         if i in words:
+#             words[i]+=1
 #         else:
-#             dict[words]=1
-# for keys in list(dict.keys()):
-#     print(keys+" : "+dict[keys])
+#             words[i]=1
+# for keys in words.keys():
+#     print(str(keys)+" : "+str(words[keys]))
 
